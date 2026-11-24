@@ -1,0 +1,15 @@
+{
+  "name": "survey-tally-board",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Count nonblank single-choice answers and show each share of responses.",
+  "license": "MIT",
+  "type": "module",
+  "exports": "./transform.mjs",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}
